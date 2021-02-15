@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT livros (livro+)>
+<!ATTLIST livro ISBN CDATA #REQUIRED>
+<!ELEMENT livro (titulo, preco, autor*, idioma, editora, evento*, revisor)>
+<!ATTLIST autor tipo (Principal|Tradutor) "Principal" >
+<!ATTLIST evento data CDATA #REQUIRED>
+<!ELEMENT revisor (nome, email, estado, tipo)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT preco (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT idioma (#PCDATA)>
+<!ELEMENT editora (#PCDATA)>
+<!ELEMENT evento (#PCDATA)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT estado (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>

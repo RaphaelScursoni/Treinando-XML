@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE livros SYSTEM "livraria.dtd">
+<livros>
+    <livro ISBN="9788175257665">
+        <titulo>Harry Potter</titulo>
+        <preco>49,99</preco>
+        <autor tipo="Principal">J.K.Rowling</autor>
+        <idioma>Português</idioma>
+        <editora>Saraiva</editora>
+        <evento fata="2020-01-08">Lançamento em Londres</evento>
+        <revisor>
+            <nome>Alberto Silva</nome>
+            <email>alberto@uol.com.br</email>
+            <estado>SP</estado>
+            <tipo>2</tipo>
+        </revisor>
+    </livro>
+</livros>
